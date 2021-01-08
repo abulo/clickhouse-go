@@ -1,3 +1,4 @@
+```golang
 package main
 
 import (
@@ -6,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go"
-	data "github.com/ClickHouse/clickhouse-go/lib/data"
+	"github.com/abulo/clickhouse-go"
+	data "github.com/abulo/clickhouse-go/lib/data"
 )
 
 func main() {
@@ -118,3 +119,4 @@ func writeBatch(block *data.Block, n int) {
 		block.WriteArray(3, clickhouse.Array([]uint8{1, 2, 3, 4, 5}))
 	}
 }
+```

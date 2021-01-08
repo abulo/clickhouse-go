@@ -1,3 +1,4 @@
+```golang
 package main
 
 import (
@@ -5,8 +6,8 @@ import (
 	"log"
 	"time"
 
+	"github.com/abulo/clickhouse-go"
 	"github.com/jmoiron/sqlx"
-	"github.com/ClickHouse/clickhouse-go"
 )
 
 func main() {
@@ -76,3 +77,4 @@ func checkErr(err error) {
 		log.Fatal(err)
 	}
 }
+```

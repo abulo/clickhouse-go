@@ -3,7 +3,7 @@ package column
 import (
 	"net"
 
-	"github.com/ClickHouse/clickhouse-go/lib/binary"
+	"github.com/abulo/clickhouse-go/lib/binary"
 )
 
 type IPv4 struct {

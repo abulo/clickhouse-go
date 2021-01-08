@@ -2,7 +2,7 @@ package column
 
 import (
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/lib/binary"
+	"github.com/abulo/clickhouse-go/lib/binary"
 	"io/ioutil"
 	"net"
 	"strings"

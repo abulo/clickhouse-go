@@ -26,3 +26,25 @@ _testmain.go
 
 coverage.txt
 .idea/**
+
+.DS_Store
+/.idea
+/.vscode
+/.history
+/vendor
+/bin
+/release
+/test
+/docker/data
+/static/images
+/static/apks
+/static/excel
+/static/json
+/static/archiver
+/gorun
+/gorun_linux
+/gorun.exe
+config/config.toml
+config/localhost
+/go.sum
+/config/hxc

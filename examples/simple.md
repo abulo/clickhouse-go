@@ -1,3 +1,4 @@
+```golang
 package main
 
 import (
@@ -6,7 +7,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go"
+	"github.com/abulo/clickhouse-go"
 )
 
 func main() {
@@ -74,3 +75,4 @@ func checkErr(err error) {
 		log.Fatal(err)
 	}
 }
+```

@@ -6,9 +6,10 @@ package column
 
 import (
 	"database/sql/driver"
-	"errors"
 	"net"
 	"strings"
+
+	"github.com/pkg/errors"
 )
 
 var (
@@ -61,7 +62,7 @@ func (ip *IP) Scan(value interface{}) (err error) {
 			err = errInvalidScanValue
 			return
 		}
-		if (len(v) == 4 || len(v) == 16) && !strings.Contains(v, ".") && !strings.Contains(v, ":"){
+		if (len(v) == 4 || len(v) == 16) && !strings.Contains(v, ".") && !strings.Contains(v, ":") {
 			*ip = IP([]byte(v))
 			return
 		}

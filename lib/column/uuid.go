@@ -2,9 +2,10 @@ package column
 
 import (
 	"encoding/hex"
-	"errors"
 	"fmt"
 	"reflect"
+
+	"github.com/pkg/errors"
 
 	"github.com/abulo/clickhouse-go/lib/binary"
 )

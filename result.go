@@ -1,6 +1,6 @@
 package clickhouse
 
-import "errors"
+import "github.com/pkg/errors"
 
 type result struct{}
 

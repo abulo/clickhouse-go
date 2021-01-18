@@ -5,7 +5,6 @@ import (
 	"context"
 	"database/sql"
 	"database/sql/driver"
-	"errors"
 	"fmt"
 	"net"
 	"reflect"
@@ -18,6 +17,7 @@ import (
 	"github.com/abulo/clickhouse-go/lib/data"
 	"github.com/abulo/clickhouse-go/lib/protocol"
 	"github.com/abulo/clickhouse-go/lib/types"
+	"github.com/pkg/errors"
 )
 
 type (

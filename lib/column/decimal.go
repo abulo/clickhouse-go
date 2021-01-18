@@ -1,12 +1,12 @@
 package column
 
 import (
-	"errors"
 	"fmt"
 	"strconv"
 	"strings"
 
 	"github.com/abulo/clickhouse-go/lib/binary"
+	"github.com/pkg/errors"
 )
 
 // Table of powers of 10 for fast casting from floating types to decimal type

@@ -26,8 +26,9 @@
 package lz4
 
 import (
-	"errors"
 	"sync"
+
+	"github.com/pkg/errors"
 )
 
 const (

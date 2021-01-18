@@ -3,8 +3,9 @@ package types
 import (
 	"database/sql/driver"
 	"encoding/hex"
-	"errors"
 	"fmt"
+
+	"github.com/pkg/errors"
 )
 
 var InvalidUUIDFormatError = errors.New("invalid UUID format")

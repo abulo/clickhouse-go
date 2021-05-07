@@ -5,8 +5,9 @@ import (
 	"net"
 	"reflect"
 	"time"
-	"github.com/abulo/clickhouse-go/lib/column"
+
 	"github.com/abulo/clickhouse-go/lib/binary"
+	"github.com/abulo/clickhouse-go/lib/column"
 )
 
 func (block *Block) WriteDate(c int, v time.Time) error {
